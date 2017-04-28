@@ -1,0 +1,28 @@
+<!doctype html>
+
+<html>
+
+<head>
+    <title>Captcha</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="captcha-box">
+        <form name="captcha">
+            <input id="field" type="text" name="field" value="" disabled>
+            <input class="input" id="input" type="text">
+            <div class="validate">
+                <i id="random" class="fa fa-repeat"></i>
+                <i id="validate" class="success fa fa-check-circle-o"></i>
+            </div>
+            <img id="logo" src="assets/images/recaptcha_logo.png" alt="captcha-logo">
+        </form>
+    </div>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
