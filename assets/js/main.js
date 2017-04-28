@@ -31,6 +31,8 @@ function randomString() {
     document.captcha.field.value = randomContent;
 }
 
+randomString();
+
 function randomColors() {
     "use strict";
     document.getElementById("field").style.color = "#" + Math.floor(Math.random() * 16777215).toString(16);
